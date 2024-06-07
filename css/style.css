@@ -8,7 +8,11 @@
 
         header {
             background-color: #fff;
-            color: #000000;
+            color: #AFC3C3;
             padding: 10px 10px;
-            text-align: center;
+        }
+
+        .navbarcolor{
+            background-color: #AFC3C3;
+            
         }

@@ -5,14 +5,112 @@
             font-weight: 500;
             font-style: normal;
         }
-
-        header {
-            background-color: #fff;
-            color: #AFC3C3;
-            padding: 10px 10px;
+        .navbar {
+            background-color: #afc3c3;
+        }
+        .navbar-brand img {
+            height: 40px;
+        }
+        .hero-section {
+            background-color: #afc3c3;
+            padding: 100px 0;
+            position: relative;
+            
+        }
+        
+        .hero-section h1 {
+            position: relative;
+            font-size: 6em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #fff;
+            text-align: left;
+            z-index: 20;
+        }
+        
+        .hero-section p {
+            font-size: 1.2em;
+            text-align: left;
+        }
+        
+        .hero-section .gmbr1 {
+            position: absolute;
+            max-width: 28%;
+            height: auto;
+            margin-top: 20px;
+            right: 220px;
+            bottom: 2px;
+            z-index: 11;
         }
 
-        .navbarcolor{
-            background-color: #AFC3C3;
-            
+        .fajar1{
+            margin-left: 100px;
+        }
+        .fajar2{
+            text-decoration: none;
+        }
+        
+        .location-badge {
+            background-color: #fff;
+            padding: 10px 30px;
+            border-radius: 200px;
+            display: inline-block;
+        }
+        .location-badge1 {
+            position: absolute;
+            background-color: #9eb8b8;
+            padding: 10px 40px;
+            border-radius: 200px;
+            display: inline-block;
+            bottom: -20px;
+            right: 60px;
+            z-index: 12;
+        }
+        
+        .location-badge h5 {
+            margin: 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .location-badge p {
+            margin: 0;
+            font-size: 1em;
+        }
+        .about-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        .portfolio-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .feedback-section {
+            padding: 50px 0;
+            background-color: #e0e8f9;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: white;
+        }
+        .card-body h5 {
+            font-weight: bold;
+        }
+        .portfolio-section img {
+            width: 100%;
+        }
+        .blockquote {
+            border-left: 5px solid #4CAF50;
+            padding-left: 15px;
+        }
+        .warna{
+            background-color: #333;
+            color: #ffffff;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 20px;
         }

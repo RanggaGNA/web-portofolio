@@ -635,7 +635,7 @@
         font-size: 1.7em;
         text-align: left;
     }
-    .text-left h3 {
+    .h3, h3 {
         font-size: (4rem + .6vw) !important;
     }
 }
@@ -785,18 +785,29 @@
 }
 
 @media(max-width:991px) {
+    .image-section {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+        margin-top: 120px !important;
+    }
     .about-section h2{
         font-weight: bold;
         font-size:  1.3em;
         padding: 50px;
     }
+    .gmbr-section{
+        width: auto;
+        height: auto;
+        padding: 0px !important;
+    }
     .hero-section p{
         font-size: 0.6em;
         text-align: left;
     }
-    .h3, h3 {
+    /* .h3, h3 {
         font-size: calc(1rem + .6vw);
-    }
+    } */
     .hero-section h1 {
         position: relative;
         font-size: 2.5em;
@@ -827,9 +838,35 @@
     .text-align-center p {
         font-size: 13px !important;
     }
+    /* .card-body .icon{
+        width: auto;
+        height: auto;
+        padding: 5px;
+    } */
 }
 
-@media(max-width:780px) {}
+@media(max-width:780px) {
+    .h3, h3 {
+        font-size: calc(0.8rem + .6vw) !important;
+    }
+    .hero-section h1 {
+        position: relative;
+        font-size: 2.4em;
+        font-weight: bold;
+        margin-bottom: 0px;
+        color: #fff;
+        text-align: left;
+        z-index: 20;
+    }
+    .hero-section .gmbr1{
+        max-width: 33%;
+        margin-right: 20px !important;
+    }
+    .hero-section p{
+        font-size: 0.4em;
+    }
+    
+}
 
 @media(max-width:768px) {}
 

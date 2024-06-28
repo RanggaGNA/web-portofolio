@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>Company Website</title>
+    <link rel="shortcut icon" href="https://maxiidea.com/img/icon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark px-5">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo maxid.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav col-md-3 kelek" style="z-index: 10;">
+                    <li class="nav-item col-md-6"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item col-md-6"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item col-md-6"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item col-md-6"><a class="nav-link" href="#feedback1">Feedback</a></li>
+                </ul>
+            </div>
+            <a class="warna" type="button" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#customModalc">Contact Us</a>
+
+            <div class="modal fade custom-modal1" id="customModalc" tabindex="-1" aria-labelledby="customModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog2">
+                    <div class="modal-content modal-content2">
+                        <div class="modal-header modal-header2 border-bottom">
+                            <h5 class="modal-title modal-title" id="customModalLabel">Send Message</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                <img src="images/icon/Group 17.png" alt="Close">
+                            </button>
+                        </div>
+                        <div class="modal-body modal-body2">
+                            <form>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Your Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message:</label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </nav>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero-section position-relative">
+        <div class=" d-flex flex-column">
+            <div class="align-self-end">
+                <img class="gmbr1" style="z-index: 1;" src="images/hhk.png" alt="Decorative">
+            </div>
+            <div class="text-left mb-4 fajar1">
+                <h3 class="fw-bold">Welcome to CV. Maxiidea</h3>
+                <p>We are a digital creative company dedicated to helping businesses and brands<br>thrive through
+                    innovative solutions and impressive designs.</p>
+                <h1 class="pb-5">EXPLORE OUR COMPANY</h1>
+            </div>
+
+        </div>
+
+        <div class="">
+            <div class="location-badge1 d-flex align-items-center  justify-content">
+                <h5 class="mb-0 me-2">Follow Us</h5>
+                <a href="javascript:void(0)">
+                    <a href="#" class="fa-brands fa-facebook mx-2 text-dark" style="text-decoration: none;"></a>
+                    <a href="#" class="fa-brands fa-whatsapp mx-2 text-dark" style="text-decoration: none;"></a>
+                    <a href="#" class="fa-brands fa-linkedin mx-2 text-dark" style="text-decoration: none;"></a>
+                    <a href="#" class="fa-brands fa-instagram mx-2 text-dark" style="text-decoration: none;"></a>
+                    <a href="#" class="fa-brands fa-x-twitter mx-2 text-dark" style="text-decoration: none;"></a>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section py-5" id="about">
+        <div class="container text-center">
+            <div class=" row">
+                <div class="col-md-6">
+                    <img src="images/jodielkan.png" alt="" style="height: 650px; width: auto;">
+                </div>
+                <div class="col-md-6">
+                    <div class="">
+                        <h2 class="fst-italic">About Our Company</h2>
+                        <div class="row my-5">
+                            <div class="col-6">
+                                <div class="card py-4">
+                                    <div class="card-body d-flex text-center">
+                                        <div class="icon">
+                                            <img src="images/icon/freelancer 1.png"
+                                                style="width: auto; height: auto; padding: 20px;">
+                                        </div>
+                                        <div class="text-align-center ms-3 mt-3">
+                                            <h5 class="card-title mb-0 fw-bold fs-4">16 Persons</h5>
+                                            <p class="card-text mb-0">Our Employees</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card py-4">
+                                    <div class="card-body d-flex">
+                                        <div class="icon">
+                                            <img src="images/icon/business 1.png"
+                                                style="width: auto; height: auto; padding: 20px;">
+                                        </div>
+                                        <div class="text-align-center ms-3 mt-3">
+                                            <h5 class="card-title mb-0 fw-bold fs-4 me-5 ">300+</h5>
+                                            <p class="card-text mb-0">Our Portofolio</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-5">
+                            <div class="col-6">
+                                <div class="card py-4">
+                                    <div class="card-body d-flex">
+                                        <div class="icon">
+                                            <img src="images/icon/user 1.png"
+                                                style="width: auto; height: auto; padding: 20px;">
+                                        </div>
+                                        <div class="text-align-center ms-3 mt-3">
+                                            <h5 class="card-title mb-0 fw-bold fs-4 me-5  ">30+</h5>
+                                            <p class="card-text mb-0">Our Employees</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card py-4">
+                                    <div class="card-body d-flex">
+                                        <div class="icon">
+                                            <img src="images/icon/experience 1.png"
+                                                style="width: auto; height: auto; padding: 20px;">
+                                        </div>
+                                        <div class="text-align-center ms-3 mt-3">
+                                            <h5 class="card-title mb-0 fw-bold fs-4 ">10 Years</h5>
+                                            <p class="card-text mb-0">Year of Experience</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <p>Learn more about what we do</p> -->
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section py-5" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="" style="text-align: left; padding: 20px; margin-left: 40px;">
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2 style="font-weight: bold; font-size: 3rem;">Our Portfolio</h2>
+                            <div class="dropdown" style="right: 0;">
+                                <button class="btn dropdown-toggle align-self-end" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/icon/filter 3.png" alt="Logo" style="height: auto; width: auto;;">
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="calender.html">Calender</a></li>
+                                    <li><a class="dropdown-item" href="magazine.html">Magazine</a></li>
+                                    <li><a class="dropdown-item" href="corporatedesign.html">Corporate Design</a></li>
+                                    <li><a class="dropdown-item" href="socialmedia.html">Social Media</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <p class="fst-italic" style="font-family: Inter, sans-serif;">Transforming Ideas into Extraordinary
+                        Digital Creations</p>
+                            
+                    
+                </div>
+                <!-- <div class="d-flex justify-content-end">
+                    <div class="dropdown d-flex align-self-center justify-content-end" style="right: 0;">
+                        <button class="btn dropdown-toggle align-self-end" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/icon/filter 3.png" alt="Logo" style="height: auto; width: auto;;">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+            <div class="row py-4">  
+                    <div class="col-md-4 mx-auto">
+                        <div class="card">
+                            <img  href="" src="images/ptpn anual.jpg" class="card-img-top" data-toggle="modal" data-target="#customModal1" alt="logo">
+                        </div>
+                    </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="card">
+                        <img src="images/pln batam anual.jpg" class="card-img-top" data-toggle="modal" data-target="#customModal2" alt="logo">
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="card">
+                        <img src="images/daskkhladshljkhljas.jpg" class="card-img-top" data-toggle="modal" data-target="#customModal3"  alt="logo">
+                    </div>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-md-4 mx-auto">
+                    <div class="card">
+                        <img  href="" src="images/maspiuon.jpg" class="card-img-top" data-toggle="modal" data-target="#customModal4" alt="logo">
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="card">
+                        <img src="images/po24.jpg" class="card-img-top" data-toggle="modal" data-target="#customModal5" alt="logo">
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="card">
+                        <img src="images/po30.jpg" class="card-img-top" data-toggle="modal" data-target="#customModal6" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <br>
+        <a href="portofolio.html" type="button" class="btn btn-outline-dark">View All Portofolio</a>
+
+        <div class="modal fade custom-modal3" id="customModal1" tabindex="-1" role="dialog" aria-labelledby="customModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog3" role="document">
+                <div class="modal-content modal-content3">
+                    <div class="modal-header modal-header3 border-bottom-dark">
+                        <h2 class="modal-title modal-title3" id="customModalLabel">PTPN XII Anual Report</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <img src="images/icon/Group 17.png" alt="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body modal-body3">
+                        <img src="images/ptpn anual.jpg" alt="Anual Report">
+                    </div>
+                    <div class="modal-footer modal-footer3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Client : </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Produced : </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade custom-modal3" id="customModal2" tabindex="-1" role="dialog" aria-labelledby="customModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog3" role="document">
+                <div class="modal-content modal-content3">
+                    <div class="modal-header modal-header3 border-bottom-dark">
+                        <h2 class="modal-title modal-title3" id="customModalLabel">PTPN XII Anual Report</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <img src="images/icon/Group 17.png" alt="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body modal-body3">
+                        <img src="images/pln batam anual.jpg" alt="Anual Report">
+                    </div>
+                    <div class="modal-footer modal-footer3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Client : </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Produced : </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade custom-modal3" id="customModal3" tabindex="-1" role="dialog" aria-labelledby="customModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog3" role="document">
+                <div class="modal-content modal-content3">
+                    <div class="modal-header modal-header3 border-bottom-dark">
+                        <h2 class="modal-title modal-title3" id="customModalLabel">PTPN XII Anual Report</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <img src="images/icon/Group 17.png" alt="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body modal-body3">
+                        <img src="images/TIM website.jpg" alt="Anual Report">
+                    </div>
+                    <div class="modal-footer modal-footer3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Client : </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Produced : </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade custom-modal3" id="customModal4" tabindex="-1" role="dialog" aria-labelledby="customModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog3" role="document">
+                <div class="modal-content modal-content3">
+                    <div class="modal-header modal-header3 border-bottom-dark">
+                        <h2 class="modal-title modal-title3" id="customModalLabel">PTPN XII Anual Report</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <img src="images/icon/Group 17.png" alt="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body modal-body3">
+                        <img src="images/maspiuon.jpg" alt="Anual Report">
+                    </div>
+                    <div class="modal-footer modal-footer3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Client : </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Produced : </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade custom-modal3" id="customModal5" tabindex="-1" role="dialog" aria-labelledby="customModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog3" role="document">
+                <div class="modal-content modal-content3">
+                    <div class="modal-header modal-header3 border-bottom-dark">
+                        <h2 class="modal-title modal-title3" id="customModalLabel">PTPN XII Anual Report</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <img src="images/icon/Group 17.png" alt="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body modal-body3">
+                        <img src="images/po24.jpg" alt="Anual Report">
+                    </div>
+                    <div class="modal-footer modal-footer3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Client : </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Produced : </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade custom-modal3" id="customModal6" tabindex="-1" role="dialog" aria-labelledby="customModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog3" role="document">
+                <div class="modal-content modal-content3">
+                    <div class="modal-header modal-header3 border-bottom-dark">
+                        <h2 class="modal-title modal-title3" id="customModalLabel">PTPN XII Anual Report</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <img src="images/icon/Group 17.png" alt="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body modal-body3">
+                        <img src="images/po30.jpg" alt="Anual Report">
+                    </div>
+                    <div class="modal-footer modal-footer3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Client : </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="p-2 fw-bold">Produced : </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <h1 class="fst-italic py-2" style="text-align: center; font-weight: bold; font-size: 3.5rem;" id="feedback1">Our
+        Feedback</h1>
+    <section class="feedback-section" id="feedback">
+        <div class="container text-center">
+            <div class="row position-relative">
+                <div class="col-md-6 p-0" style="text-align: left;">
+                    <p style="font-size: 1.5rem;">We listen your words</p>
+                    <h5 class="h5-section">We Listen From Our Happy Client</h5>
+                    <!-- <div class="container mt-2">
+                                <button class="btn-custom">
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                                
+                                <button class="btn-custom">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div> -->
+                </div>
+                <div class="col-md-6">
+                    <div class="owl-carousel owl-theme owl-virgus">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-md-12">
+                                    <div class="testimonial-container">
+                                        <p>"I had the pleasure of working with CV. Maxiidea on our website redesign
+                                            project, and I couldn't be
+                                            more satisfied with the outcome. Their team demonstrated exceptional
+                                            creativity and technical expertise,
+                                            delivering a user-friendly and visually stunning website.
+                                            The entire process was smooth, and their attention to detail was impressive.
+                                            Highly recommended!"</p>
+                                    </div>
+                                    <div class="testimonial me-5 d-flex ">
+                                        <div class="author-info mt-3">
+                                            <img src="images/po1.jpg" style="width: 50px;" alt="Profile">
+                                            <span class="author-name mt-2   ">Emily Davis</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-md-12">
+                                    <div class="testimonial-container">
+                                        <p>"I had the pleasure of working with CV. Maxiidea on our website redesign
+                                            project, and I couldn't be
+                                            more satisfied with the outcome. Their team demonstrated exceptional
+                                            creativity and technical expertise,
+                                            delivering a user-friendly and visually stunning website.
+                                            The entire process was smooth, and their attention to detail was impressive.
+                                            Highly recommended!"</p>
+                                    </div>
+                                    <div class="testimonial me-5 d-flex">
+                                        <div class="author-info mt-3">
+                                            <img src="images/jodielkan.png" style="width: 50px;" alt="Profile Picture">
+                                            <span class="author-name mt-2">antony davis</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-md-12">
+                                    <div class="testimonial-container">
+                                        <p>"I had the pleasure of working with CV. Maxiidea on our website redesign
+                                            project, and I couldn't be
+                                            more satisfied with the outcome. Their team demonstrated exceptional
+                                            creativity and technical expertise,
+                                            delivering a user-friendly and visually stunning website.
+                                            The entire process was smooth, and their attention to detail was impressive.
+                                            Highly recommended!"</p>
+                                    </div>
+                                    <div class="testimonial me-5 d-flex">
+
+                                        <div class="author-info mt-3">
+                                            <img src="images/calendah.jpg" style="width: 50px;" alt="Profile Picture">
+                                            <span class="author-name mt-2">lionel sane</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="contact-box border-bottom">
+                    <div>
+                        Our Contact and Social Media
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i></a>
+                        <a href="#" class="text-white"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container text-center">
+            <div class="row mx-auto">
+                <div class="col-md-3">
+                    <img src="images/logo maxid.png" alt="" style="width: 200px; height: auto;">
+                    <br>
+                    <p style="text-align: left; font-size: 0.8rem; padding-top: 10px;">Modern problem need a maxiidea
+                        marketing communication solution</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Company</h5>
+                    <a href="#" style="text-decoration: none;">
+                        <p>About us</p>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        <p>Contact</p>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        <p>Careers</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <a href="#" style="text-decoration: none;">
+                        <p>Helps</p>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        <p>Press</p>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        <p>Affiliates</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <h5>More</h5>
+                    <a href="#" style="text-decoration: none;">
+                        <p>Catalouge</p>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        <p>Annual Reports</p>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        <p>Website</p>
+                    </a>
+                </div>
+            </div>
+            <p class="mt-3">&copy; 2024 Company. Maxiidea.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Link Custom JS -->
+    <script src="js/style.js"></script>
+</body>
+
+</html>

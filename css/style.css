@@ -209,11 +209,17 @@
     padding-left: 15px;
 }
 
-.warna {
+.contactus {
     background-color: #333;
     color: #ffffff;
     display: inline-block;
-    padding: 10px 20px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 60px;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10; */
     border-radius: 20px;
 }
 
@@ -631,14 +637,25 @@
         text-align: left;
         z-index: 20;
     }
-    .hero-section p{
+
+    .hero-section p {
         font-size: 1.7em;
         text-align: left;
     }
-    .h3, h3 {
+
+    .h3,h3 {
         font-size: (4rem + .6vw) !important;
     }
+
+    /* .owl-nav .owl-next {
+        margin-top: 110px !important;
+    }
+
+    .owl-nav .owl-prev {
+        margin-top: 110px !important;
+    } */
 }
+
 @media (max-width: 1780px) {
     .hero-section .gmbr1 {
         max-width: 20%;
@@ -680,6 +697,10 @@
         text-align: left;
     }
 
+    .contactus{
+        padding:0 30px ;
+    }
+
 }
 
 @media(max-width:1150px) {
@@ -689,10 +710,11 @@
         background-color: #E69446;
     }
 
-    /* .card-body h5 {
-        font-size: 15px !important;
-        margin-top: 8px !important;
-    } */
+    .image-section {
+        width: 100% !important;
+        height: auto !important;
+        margin-top: 120px !important;
+    }
 
     .card-body .card-title {
         font-size: 13px !important;
@@ -736,10 +758,13 @@
         margin-left: 0px !important;
     }
 
-    .owl-prev i,
-    .owl-next i {
+    .owl-prev i, .owl-next i {
         font-size: 30px;
         color: black;
+    }
+
+    .contactus{
+        padding: 0px 20px;
     }
 
 }
@@ -782,6 +807,14 @@
         text-align: left;
         z-index: 20;
     }
+
+    .visit-section p {
+        font-size: 17px !important;
+    }
+
+    .contactus{
+        padding: 0px 20px;
+    }
 }
 
 @media(max-width:991px) {
@@ -791,23 +824,24 @@
         height: auto !important;
         margin-top: 120px !important;
     }
-    .about-section h2{
+
+    .about-section h2 {
         font-weight: bold;
-        font-size:  1.3em;
+        font-size: 1.3em;
         padding: 50px;
     }
-    .gmbr-section{
+
+    .gmbr-section {
         width: auto;
         height: auto;
         padding: 0px !important;
     }
-    .hero-section p{
+
+    .hero-section p {
         font-size: 0.6em;
         text-align: left;
     }
-    /* .h3, h3 {
-        font-size: calc(1rem + .6vw);
-    } */
+
     .hero-section h1 {
         position: relative;
         font-size: 2.5em;
@@ -817,69 +851,132 @@
         text-align: left;
         z-index: 20;
     }
+
     .hero-section .gmbr1 {
-        max-width: 24%;
+        max-width: 28%;
+        margin-right: 10px;
     }
-    /* .card-body h5 {
-        font-size: 11px !important;
-        margin-top: 8px !important;
-    } */
+
+    .card-body h5 {
+        font-size: 8px !important;
+        margin-top: 0px !important;
+    }
 
     .card-body .card-title {
-        font-size: 11px !important;
-        margin-top: 5px !important;
+        font-size: 9.1px !important;
+        margin-top: 1px !important;
+        margin-right: 30px !important;
     }
 
-    /* .card-body p {
-        font-size: 11px !important;
-        margin-top: 8px !important;
-    } */
+    .card-body .card-text {
+        font-size: 9.1px !important;
+        margin-top: 1px !important;
+    }
 
     .text-align-center p {
         font-size: 13px !important;
     }
-    /* .card-body .icon{
-        width: auto;
-        height: auto;
-        padding: 5px;
-    } */
+
+    .owl-prev i, .owl-next i {
+        font-size: 20px;
+        color: black;
+        display: block;
+        margin: 5px auto;
+        width: fit-content;
+    }
+
+    .testimonial-container p, .author-name {
+        font-size: 12px;
+    }
+    .owl-nav .owl-prev {
+        width: 70px;
+        margin-left: 15px !important;
+        padding: 5px 0px !important;
+    }
+    .owl-nav .owl-next {
+        width: 70px;
+        margin-left: 40px !important;
+        padding: 5px 0px !important;
+    }
+    .author-info img{
+        width: 30px !important;
+        height: 30px;
+    }
+
+    .visit-section {
+        padding: 10px;
+    }
+
+    .visit-section h3 {
+        font-size: 20px !important;
+    }
+
+    .visit-section p {
+        font-size: 17px !important;
+    }
+
+    .kear h3 {
+        font-size: 25px !important;
+    }
+
+    .kear p {
+        font-size: 18px !important;
+    }
 }
 
 @media(max-width:780px) {
-    .h3, h3 {
+
+    .h3,
+    h3 {
         font-size: calc(0.8rem + .6vw) !important;
     }
+
     .hero-section h1 {
         position: relative;
-        font-size: 2.4em;
+        font-size: 1.7em;
         font-weight: bold;
         margin-bottom: 0px;
         color: #fff;
         text-align: left;
         z-index: 20;
     }
-    .hero-section .gmbr1{
+
+    .hero-section .gmbr1 {
         max-width: 33%;
         margin-right: 20px !important;
     }
-    .hero-section p{
+
+    .hero-section p {
         font-size: 0.4em;
     }
-    
+
+    .testimonial-container p, .author-name {
+        font-size: 12px;
+    }
+
+    .owl-nav .owl-next {
+        margin-top: 135px !important;
+    }
+    .owl-nav .owl-prev {
+        margin-top: 135px !important;
+    }
 }
 
-@media(max-width:768px) {}
+@media(max-width:768px) {
+    .visit-section{
+        padding: 25px;
+    }
+    .header-portofolio .fw-bold {
+        font-size: 2em !important;
+    }
+    .hero-section .fw-bold{
+        font-size: 1em !important;
+    }
 
-@media(max-width:667px) {}
 
-@media(max-width:640px) {}
-
-@media(max-width:414px) {}
-
-@media(max-width:384px) {}
-
-@media(max-width:375px) {}
-
-@media(max-width:320px) {}
+    /* .fs-5{
+        font-size: 1em !important;
+    } */
+}
 
 /*--//responsive--*/

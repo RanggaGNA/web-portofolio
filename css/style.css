@@ -7,7 +7,7 @@
 
 * {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-style: normal;
 }
 
@@ -834,11 +834,23 @@
         height: auto !important;
         margin-top: 120px !important;
     }
+    .footer img{
+        width: 150px !important;
+        margin-left: -4px !important;
+    }
+    .footer .container p{
+        font-size: 10px !important;
+    }
 
     .about-section h2 {
         font-weight: bold;
         font-size: 1.3em;
         padding: 50px;
+    }
+
+    .location-badge1 {
+        padding: 9px 10px;
+        right: 61px;
     }
 
     .gmbr-section {
@@ -848,18 +860,12 @@
     }
 
     .hero-section p {
-        font-size: 0.6em;
+        font-size: 0.7em;
         text-align: left;
     }
 
     .hero-section h1 {
-        position: relative;
-        font-size: 2.5em;
-        font-weight: bold;
-        margin-bottom: 0px;
-        color: #fff;
-        text-align: left;
-        z-index: 20;
+        font-size: 2.8em;
     }
 
     .hero-section .gmbr1 {
@@ -919,15 +925,19 @@
     }
 
     .visit-section {
-        padding: 10px;
+        padding: 50px;
     }
 
     .visit-section h3 {
-        font-size: 20px !important;
+        font-size: 19px !important;
+        margin-left: -30px;
+        text-align: justify !important;
     }
 
     .visit-section p {
-        font-size: 17px !important;
+        text-align: justify !important;
+        font-size: 21px !important;
+        margin-left: -32px;
     }
 
     .kear h3 {
@@ -937,36 +947,52 @@
     .kear p {
         font-size: 18px !important;
     }
+    .subs-btn{
+        margin-top: 19px !important;
+    }
 }
 
 @media(max-width:780px) {
 
-    .h3,
-    h3 {
+    .h3,h3 {
         font-size: calc(0.8rem + .6vw) !important;
     }
 
+    .location-badge1 {
+        padding: 9px 10px;
+        right: 5px;
+    }
+
     .hero-section h1 {
-        position: relative;
-        font-size: 1.7em;
-        font-weight: bold;
-        margin-bottom: 0px;
-        color: #fff;
-        text-align: left;
-        z-index: 20;
+        font-size: 2.3em;
     }
 
     .hero-section .gmbr1 {
-        max-width: 33%;
-        margin-right: 20px !important;
+        max-width: 35%;
+        right: 111px;
+        bottom: 9px;
     }
 
     .hero-section p {
-        font-size: 0.4em;
+        font-size: 0.6em;
     }
 
-    .testimonial-container p,
-    .author-name {
+    .hero-section .fw-bold{
+        font-size: 24px !important;
+    }
+
+    .subs-btn{
+        margin-top: 22px !important;
+    }
+
+    .header-portofolio .fw-bold{
+        font-size: 1.5em !important;
+    }
+    .header-portofolio .fs-5{
+        font-size: 1em !important;
+    }
+
+    .testimonial-container p,.author-name {
         font-size: 12px;
     }
 
@@ -996,7 +1022,18 @@
     }
 
     .hero-section .fw-bold {
-        font-size: 1em !important;
+        font-size: 1.2em !important;
+    }
+    .hero-section .gmbr1{
+        right: 100px;
+        bottom: 0px;
+        max-width: 35%;
+    }
+    .hero-section h1 {
+        font-size: 2.3em;
+    }
+    .hero-section p{
+        font-size: 0.6em;
     }
     html, body {
         width: 100%;
@@ -1009,19 +1046,322 @@
 }
 
 @media(max-width:667px) {
-    .testimonial-container, .author-name{
-        font-size: 10px;
+    .testimonial-container p, .author-name{
+        font-size: 8px;
+    }
+    .container .col-md-12 {
+        padding-left:0px !important;
+    }
+    .portfolio-section .card{
+        margin-left: 0 !important;
+    }
+
+    .footer .container {
+        padding: 15px; /* Padding lebih sedikit untuk layar kecil */
+        text-align: start !important;
+    }
+    .footer .container p{
+        font-size:0.8rem !important ;
+    }
+    
+    .footer .row {
+        flex-direction: column; /* Mengubah tata letak menjadi satu kolom */
+    }
+    
+    .footer .col-md-3 {
+        margin-bottom: 20px; /* Margin bawah tambahan antar kolom */
+    }
+    .hero-section .gmbr1{
+        right: 100px;
+        bottom: 16px;
+        max-width: 36%;
+    }
+    .hero-section h1{
+        font-size: 1.8em ;
+    }
+    .hero-section p{
+        font-size: 7px;
+    }
+    .location-badge1 {
+        padding: 4px 5px;
+        bottom: -9px;
+        right: 1px;
+    }
+    .location-badge1 h5{
+        font-size: 15px ;
+    }
+    .contactus{
+        margin-right: 500px;
+    }
+
+    #portfolio .card{
+        margin:20px 0;
+    }
+    .container .fs-5{
+        font-size: 0.9rem !important;
+    }
+    .header-portofolio .fw-bold{
+        font-size: 1.6rem !important;
+    }
+    .visit-section{
+        padding: 16px;
+        margin: 28px;
+    }
+    .kear {
+        padding: 16px;
+        margin: 28px;
+    }
+    .container .col-md-3 img{
+        font-size: 1rem;
+    }
+    
+}
+
+@media(max-width:640px) {
+    .hero-section .gmbr1{
+        right: 80px;
+        max-width: 38%;
     }
 }
 
-@media(max-width:640px) {}
+@media(max-width:414px) {
+    .social-icons i {
+        font-size: 17px;
+    }
+    .footer .container p {
+        font-size: 0.8em !important;
+    }
+    .footer .container img {
+        margin-left: 1px !important;
+    }
+    .feedback-section {
+        padding: 50px 20px;
+    }
+    .input-group .subs-btn{
+        margin-top: 20px !important;
+    }
+    .hero-section{
+        padding:50px 0;
+    }
+    .hero-section .fw-bold{
+        margin-left: -86px;
+    }
+    .hero-section p{
+        margin-left: -84px;
+        font-size: 12px;
+        z-index: 2;
+        position: relative;
+        text-align: justify;
+        padding-right: 100px;
+    }
+    .hero-section .gmbr1 {
+        right: -57px;
+        max-width: 50%;
+    }
+    .hero-section h1{
+        font-size: 1.8em;
+    margin-left: -86px;
+    }
+    .contact-box{
+        font-size: 12px;
+    }
+    .location-badge1 h5{
+        font-size: 12px;
+    }
+    .location-badge1 {
+        padding: 20px 10px;
+        bottom: -7%;
+        right: 0px;
+    }
+    .kear{
+        padding: 0 !important;
+    }
+    .container .fs-5{
+        font-size: 0.6rem !important;
+    }
+    .header-portofolio .fw-bold{
+        font-size: 1.2rem !important;
+    }
+    /* .portfolio-section .card{
+        margin-left: 0 !important;
+    } */
+    .portfolio-section .row h2{
+        font-size: 2rem !important ;
+    }
+    .portfolio-section .fst-italic{
+        font-size: 10px;
+    }
+    .container .fs-3{
+        font-size: 1.2em !important;
+    }
+    .dropdown img{
+        width: 27px !important;
+        height: auto !important;
+    }
+    .custom-modal3 .close img {
+        width: 30px;
+        height: 30px;
+        margin-top: -18px;
+    }
+    .custom-modal3 .modal-title3 {
+        font-size: 24px;
+    }
+    #feedback1{
+        font-size: 2.5rem !important;
+    }
+    .feedback-section .p-0 p{
+        font-size: 1rem !important;
+    }
+    .h5-section {
+        font-size: 2em !important;
+    }
+    .feedback-section .testimonial-container p{
+        font-size: 0.8rem !important;
+    }
 
-@media(max-width:414px) {}
+}
 
-@media(max-width:384px) {}
+@media(max-width:384px) {
+    .hero-section p{
+        margin-left: -84px;
+        font-size: 12px;
+        z-index: 2;
+        position: relative;
+        text-align: justify;
+        padding-right: 100px;
+    }
+    .contact-box{
+        font-size: 0.6rem !important;
+    }
+    .custom-modal3 .modal-title3 {
+        font-size: 20px;
+    }
+    .custom-modal3 .close img {
+        width: 20px;
+        height: 20px;
+        margin-top: -22px;
+    }
+    .kear {
+        padding: 0 15px !important;
+    }
+    .kear h3 {
+        font-size: 1.8rem !important; /* Contoh penyesuaian ukuran font untuk tampilan mobile */
+    }
+    .kear .input-group-text {
+        margin-left: 15px !important; /* Menyesuaikan margin ikon email di input group */
+    }
+    .subscribe-btn{
+        font-size: 9px !important;
+    }
+    .card-body .card-text{
+        font-size: 8px !important;
+    }
+    .card-body .card-text {
+        font-size: 6px !important;
+    }
+    .card-body .card-title{
+        font-size: 8px !important;
+    }
+}
 
-@media(max-width:375px) {}
+@media(max-width:375px) {
+    .card-body .card-title{
+        margin-right: 2px !important;
+    }
+    .custom-modal3 .modal-title3 {
+        font-size: 20px;
+    }
+    .custom-modal3 .close img {
+        width: 20px;
+        height: 20px;
+        margin-top: -24px;
+    }
+    .hero-section p{
+        margin-left: -84px;
+        font-size: 11px;
+        z-index: 2;
+        position: relative;
+        text-align: justify;
+        padding-right: 100px;
+    }
+    .visit-section h3 {
+        font-size: 19px !important;
+        margin-left: -3px;
+        text-align: justify !important;
+    }
+    .visit-section p {
+        text-align: justify !important;
+        font-size: 21px !important;
+        margin-left: -1px;
+    }
+}
 
-@media(max-width:320px) {}
+@media(max-width:320px) {
+    #feedback1{
+        font-size: 1.5em !important;
+    }
+    .hero-section p{
+        margin-left: -84px;
+        font-size: 11px;
+        z-index: 2;
+        position: relative;
+        text-align: justify;
+        padding-right: 100px;
+    }
+    .hero-section h1{
+        font-size: 1.4em !important;
+    }
+    .hero-section .fw-bold{
+        font-size: 0.8em !important;
+    }
+    .hero-section .gmbr1{
+        max-width: 60%;
+    }
+    .visit-section p{
+        font-size: 10px !important;
+    }
+    .kear p{
+        font-size: 10px !important;
+    }
+    .card-body h5{
+        font-size: 6px !important;
+    }
+    .card-body .card-text{
+        font-size: 8px !important;
+    }
+    .card-body .card-text {
+        font-size: 6px !important;
+    }
+    .card-body .card-title{
+        font-size: 7px !important;
+        margin-right: 11px !important;
+    }
+    .portfolio-section .row h2 {
+        font-size: 1rem !important;
+    }
+    .portfolio-section .fst-italic {
+        font-size: 7px;
+    }
+    .custom-modal3 .modal-title3 {
+        font-size: 16px;
+    }
+    .custom-modal3 .close img {
+        width: 20px;
+        height: 20px;
+        margin-top: -33px;
+    }
+    .container-fluid h5{
+        font-size: 13px;
+    }
+    .footer .container{
+        padding: 0;
+    }
+    .contact-box{
+        font-size: 0.4em !important;
+    }
+    .feedback-section .testimonial-container p {
+        font-size: 0.6rem !important;
+    }
+}
 
 /*--//responsive--*/

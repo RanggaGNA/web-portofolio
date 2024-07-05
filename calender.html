@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,11 +33,13 @@
                     <li class="nav-item col-md-6"><a class="nav-link" href="index.html #about">About</a></li>
                     <li class="nav-item col-md-6"><a class="nav-link" href="index.html #portfolio">Portfolio</a></li>
                     <li class="nav-item col-md-6"><a class="nav-link" href="index.html #feedback">Feedback</a></li>
-                    <a class="contactus text-center d-flex justify-content-center align-items-center" type="button" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#customModalc">Contact</a>
+                    <a class="contactus text-center d-flex justify-content-center align-items-center" type="button"
+                        style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#customModalc">Contact</a>
                 </ul>
             </div>
 
-            <div class="modal fade custom-modal1" id="customModalc" tabindex="-1" aria-labelledby="customModalLabel" aria-hidden="true">
+            <div class="modal fade custom-modal1" id="customModalc" tabindex="-1" aria-labelledby="customModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog2">
                     <div class="modal-content modal-content2">
                         <div class="modal-header modal-header2 border-bottom">
@@ -53,7 +56,8 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="message" class="form-label">Message:</label>
-                                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                                    <textarea class="form-control" id="message" rows="3"
+                                        placeholder="Enter your message"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Kirim</button>
                             </form>
@@ -61,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </nav>
     </section>
 
@@ -71,11 +75,11 @@
             <div class="d-flex justify-content-start">
                 <button class="btn btn-outline-warning" onclick="history.back()">Back</button>
             </div>
-        <div class="mt-5 text-center py-5 mb-2">
-            <h5 class="fw-bold" style="font-size: 3.5rem;">ORDER TOUR CUSTOM <br> CALENDER TODAY!</h5>
-            <p class="fs-5"> Don’t miss out on creating a unique keepsake that you’ll <br>
-                cherish all year long. Transform ordinary days into <br> extraordinary memories with Maxiidea!</p>
-        </div>
+            <div class="mt-5 text-center py-5 mb-2">
+                <h5 class="fw-bold" style="font-size: 3.5rem;" data-aos="fade-up-right" data-aos-delay="600">ORDER TOUR CUSTOM <br> CALENDER TODAY!</h5>
+                <p class="fs-5"data-aos="fade-up-left" data-aos-delay="800"> Don’t miss out on creating a unique keepsake that you’ll <br>
+                    cherish all year long. Transform ordinary days into <br> extraordinary memories with Maxiidea!</p>
+            </div>
     </section>
 
     <!-- Calender -->
@@ -83,16 +87,18 @@
         <div class="container">
             <div class="row">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h4 class="fs-3 fw-bold ms-5 px-5 text-start"> Calender</h4>
+                    <h4 class="fs-3 fw-bold ms-5 px-5 text-start"data-aos="fade-right" data-aos-delay="1000"> Calender</h4>
                     <div class="dropdown" style="right: 0;">
                         <button class="btn dropdown-toggle align-self-end" type="button" id="dropdownMenuButton"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="images/icon/filter 3.png" alt="Logo" style="height: auto; width: auto;;">
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><button class="dropdown-item filter-btn"  data-filter="all" >All Calender</button></li>
-                            <li><button class="dropdown-item filter-btn" data-filter="wall-calender" >Wall Calender</button></li>
-                            <li><button class="dropdown-item filter-btn" data-filter="stand-calender" >Stand Calender</button></li>
+                            <li><button class="dropdown-item filter-btn" data-filter="all">All Calender</button></li>
+                            <li><button class="dropdown-item filter-btn" data-filter="wall-calender">Wall
+                                    Calender</button></li>
+                            <li><button class="dropdown-item filter-btn" data-filter="stand-calender">Stand
+                                    Calender</button></li>
                         </ul>
                     </div>
                 </div>
@@ -101,7 +107,7 @@
         <div class="container my-5">
             <div class="row g-4">
                 <!-- Card 1 -->
-                <div class="col-md-4 filter" data-category="wall-calender">
+                <div class="col-md-4 filter" data-category="wall-calender" data-aos="zoom-in" data-aos-delay="1200">
                     <div class="card calendar-card">
                         <img src="images/Calendar10.jpg" class="card-img-top" alt="Calendar Bank BRI">
                         <div class="card-body">
@@ -111,7 +117,7 @@
                     </div>
                 </div>
                 <!-- Card 2 -->
-                <div class="col-md-4 filter" data-category="stand-calender">
+                <div class="col-md-4 filter" data-category="stand-calender" data-aos="zoom-in" data-aos-delay="1400">
                     <div class="card calendar-card">
                         <img src="images/Calendar10.jpg" class="card-img-top" alt="Surabaya Calendar">
                         <div class="card-body">
@@ -121,7 +127,7 @@
                     </div>
                 </div>
                 <!-- Card 3 -->
-                <div class="col-md-4 filter" data-category="stand-calender">
+                <div class="col-md-4 filter" data-category="stand-calender"data-aos="zoom-in" data-aos-delay="1600">
                     <div class="card calendar-card">
                         <img src="images/Calendar10.jpg" class="card-img-top" alt="Calendar Malang">
                         <div class="card-body">
@@ -148,18 +154,18 @@
                         <a href="https://maxiidea.com/" class="visit22" style="text-decoration: none;">Visit Us</a>
                     </div>
                 </div>
-                <div class="col-md-5 kear">
-                    <div class="mt-3">
-                        <h3 class="text-left pt-4 mb-0 ms-5" style="text-align: left;">Explore</h3>
-                        <p class="fw-bold fs-4 text-align-start ms-5 " style="text-align: left;">Subscribe Our Company
-                        </p>
-                        <div class="input-group pt-3">
-                            <span class="input-group-text ms-5">
-                                <i class="fas fa-envelope"></i>
-                            </span>
-                            <input type="email" class="form-control subscribe-input " placeholder="Your Email">
-                            <div class="input-group-append ms-1 mt-1">
-                                <a href="" class="subscribe-btn me-1 ms-1" style="text-decoration: none;">Subscribe</a>
+                <div class="col-md-5">
+                    <div class="py-4 pb-5 kear px-4">
+                        <h3 class="text-left pt-4 mb-0" style="text-align: left;">Explore</h3>
+                        <p class="fw-bold fs-4 text-align-start" style="text-align: left;">Subscribe Our Company</p>
+                            <div class="input-group pt-3">
+                                <div class="d-flex ">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    <input type="email" class="form-control subscribe-input " placeholder="Your Email">
+                                </div>
+                                <div class="subs-btn input-group-append ms-auto mt-2 ">
+                                    <a href="" class="subscribe-btn me-1 ms-1" style="text-decoration: none;">Subscribe</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -194,50 +200,53 @@
 
         <div class="container text-center">
             <div class="row mx-auto">
-                <div class="col-md-2">
-                    <img src="images/logo maxid.png" alt="" style="width: 200px; height: auto;">
+                <div class="col-md-3">
+                    <img src="images/logo maxid.png" alt="" style="width: 200px; height: auto;margin-left: -93px;">
                     <br>
                     <p style="text-align: left; font-size: 0.8rem; padding-top: 10px;">Modern problem need a maxiidea
                         marketing communication solution</p>
                 </div>
-                <div class="col-md-3">
-                    <h5>Company</h5>
+                <div class="col-md-3 mb-4">
+                    <h5 style="text-align: start;">Company</h5>
                     <a href="#" style="text-decoration: none;">
-                        <p>About us</p>
+                        <p style="text-align: start;">About us</p>
                     </a>
                     <a href="#" style="text-decoration: none;">
-                        <p>Contact</p>
+                        <p style="text-align: start;">Contact</p>
                     </a>
                     <a href="#" style="text-decoration: none;">
-                        <p>Careers</p>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <h5>Contact</h5>
-                    <a href="#" style="text-decoration: none;">
-                        <p>Helps</p>
-                    </a>
-                    <a href="#" style="text-decoration: none;">
-                        <p>Press</p>
-                    </a>
-                    <a href="#" style="text-decoration: none;">
-                        <p>Affiliates</p>
+                        <p style="text-align: start;">Careers</p>
                     </a>
                 </div>
-                <div class="col-md-3">
-                    <h5>More</h5>
+                <div class="col-md-3 mb-4">
+                    <h5 style="text-align: start;">Contact</h5>
+                    <a style="text-decoration: none;">
+                        <p style="text-align: start;">
+                            Jl Rungkut Permai IX Blok G-19,
+                            Rungkut Tengah, Gunung Anyar
+                            Surabaya 60293, East Java, Indonesia</p>
+                    </a>
+                    <a style="text-decoration: none;">
+                        <p style="text-align: start;">Phone :031 12345678</p>
+                    </a>
+                    <a style="text-decoration: none;">
+                        <p style="text-align: start;">Email: info@maxiidea.com</p>
+                    </a>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 style="text-align: start;">More</h5>
                     <a href="#" style="text-decoration: none;">
-                        <p>Catalouge</p>
+                        <p style="text-align: start;">Catalouge</p>
                     </a>
                     <a href="#" style="text-decoration: none;">
-                        <p>Annual Reports</p>
+                        <p style="text-align: start;">Annual Reports</p>
                     </a>
                     <a href="#" style="text-decoration: none;">
-                        <p>Website</p>
+                        <p style="text-align: start;">Website</p>
                     </a>
                 </div>
             </div>
-            <p class="mt-3">&copy; 2024 Company. Maxiidea.</p>
+            <p class="mt-3">&copy; 2024 Maxiidea.</p>
         </div>
     </footer>
 
@@ -247,6 +256,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/style.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
